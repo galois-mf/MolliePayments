@@ -1,7 +1,7 @@
 {
   "name": "kiener/mollie-payments-plugin",
   "description": "Mollie Payments",
-  "version": "v1.0.7",
+  "version": "1.0.7-mt1",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "authors": [
@@ -32,8 +32,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Kiener\\MolliePayments\\": "src/",
-      "Mollie\\Api\\": "vendor/mollie/mollie-api-php/src/"
+      "Kiener\\MolliePayments\\": "src/"
     }
   }
 }
